@@ -4,7 +4,48 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "des",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +74,11 @@
 	},
 	"sources": {
 		"contracts/Counter.sol": {
-			"keccak256": "0x0c0ddb228b411073c13dcbd162096298fbc7b0b218080cf90d7d6f2c6b83c66d",
+			"keccak256": "0x87fc3590abaeb59037a4b54d694c5904df81b5c94c63c1e74126701899c3a9b3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0c4048337b1f0c4e16f5bbc72a057447d3f6f7f992b5fff7a19989be46426305",
-				"dweb:/ipfs/QmVfSefm2wWjSqVKYCGTj8ymR5dQgDeSPzTbh1XPr6n7j8"
+				"bzz-raw://b863fddd8b3bc5e54d9a15e34fa921b89b9c55d87a422fcbb0bdbfb0f8e91b7a",
+				"dweb:/ipfs/QmaCPVb9KT4ugGWd7cYjBU9t6WXazvRVFaM2mcLXzbZvVQ"
 			]
 		}
 	},
