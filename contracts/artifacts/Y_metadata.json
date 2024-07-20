@@ -6,20 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "test",
-				"outputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "val",
+				"name": "text",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Callback.sol": "ITest"
+			"contracts/Constructor.sol": "Y"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Callback.sol": {
-			"keccak256": "0x4d969fb5bec9753bdca5ebcc91f2e6b9e78f22b1e99f3de7b62c17d8c9682fa1",
+		"contracts/Constructor.sol": {
+			"keccak256": "0x5ea7e6c90e0c7bf08b5399ab898062042431e94e6b9ebbbe197103cc17295153",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://babdbde2e9e5f24c5fa6ea1f9bd889b9561751cfdf1c920e59dc496a083a8990",
-				"dweb:/ipfs/QmPJFbYjnBMhu53eU3G3kgQGkWKw1EeMSBHSkemy9KajVf"
+				"bzz-raw://232be7f3ad8973dd6a2a38b1aa0ecfc52551285a121aa25615633fbe44c87aac",
+				"dweb:/ipfs/QmSce6nK6JmmwYFwAv4QwLJArHmpC92ERHCWdwvB8aS7Hb"
 			]
 		}
 	},

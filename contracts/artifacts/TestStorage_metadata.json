@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Callback.sol": "ITest"
+			"contracts/Callback.sol": "TestStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

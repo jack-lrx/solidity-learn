@@ -7,14 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "test",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "val",
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -23,6 +16,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Callback.sol": "ITest"
+			"contracts/Account.sol": "Account"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Callback.sol": {
-			"keccak256": "0x4d969fb5bec9753bdca5ebcc91f2e6b9e78f22b1e99f3de7b62c17d8c9682fa1",
+		"contracts/Account.sol": {
+			"keccak256": "0x1a016862dd3585b3bce3fd4b1d1e69aec20d70655bf5400adb36359d57aa7d6c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://babdbde2e9e5f24c5fa6ea1f9bd889b9561751cfdf1c920e59dc496a083a8990",
-				"dweb:/ipfs/QmPJFbYjnBMhu53eU3G3kgQGkWKw1EeMSBHSkemy9KajVf"
+				"bzz-raw://985e32b6e86944d1d5d60d420dd3cc6133782662407ee503d273b570227f0cd5",
+				"dweb:/ipfs/QmXAHTwcPvDnZHKKR7q3SRfYJJsLJNTXCLQNSRPqCq4q26"
 			]
 		}
 	},

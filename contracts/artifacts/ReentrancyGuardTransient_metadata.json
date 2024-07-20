@@ -11,19 +11,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "val",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Callback.sol": "ITest"
+			"contracts/Callback.sol": "ReentrancyGuardTransient"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

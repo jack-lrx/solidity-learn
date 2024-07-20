@@ -6,33 +6,35 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "nonpayable",
-				"type": "fallback"
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnotherLog",
+				"type": "event"
 			},
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": true,
 						"internalType": "address",
-						"name": "target",
+						"name": "sender",
 						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
 					}
 				],
-				"name": "test",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"name": "Log",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "val",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -49,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Callback.sol": "Callback"
+			"contracts/Event.sol": "Event"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -63,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Callback.sol": {
-			"keccak256": "0x4d969fb5bec9753bdca5ebcc91f2e6b9e78f22b1e99f3de7b62c17d8c9682fa1",
+		"contracts/Event.sol": {
+			"keccak256": "0x5135d13f6d78eb4af148d02870a5a4f58e3ef61dfa27a71aa2757ddcb52f657c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://babdbde2e9e5f24c5fa6ea1f9bd889b9561751cfdf1c920e59dc496a083a8990",
-				"dweb:/ipfs/QmPJFbYjnBMhu53eU3G3kgQGkWKw1EeMSBHSkemy9KajVf"
+				"bzz-raw://3312a97009fdf0ed966af93fda1d28cfdcf4232c98f85905640e5d3a9e58209a",
+				"dweb:/ipfs/QmcANS8PGBtJGmz4bbvyHXdAdyc1oS2G7r6TZouXHtFbpm"
 			]
 		}
 	},
